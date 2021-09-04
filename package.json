@@ -1,7 +1,7 @@
 {
-  "name": "neigeknoert",
+  "name": "fraction",
   "version": "1.0.0",
-  "description": "Neigeknört App",
+  "description": "fraction",
   "main": "index.js",
   "scripts": {
     "test:dev": "jest --watchAll",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominikpanzer/neigeknoert.git"
+    "url": "https://github.com/dominikpanzer/fraction_kata"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dominikpanzer/neigeknoert/issues"
+    "url": "https://github.com/dominikpanzer/fraction_kata/issues"
   },
-  "homepage": "https://github.com/dominikpanzer/neigeknoert#readme",
+  "homepage": "https://github.com/dominikpanzer/fraction_kata#readme",
   "devDependencies": {
     "@types/jasmine": "^3.9.0",
     "@types/jest": "^26.0.24",
