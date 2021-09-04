@@ -59,9 +59,3 @@ test('add fractions with zero', () => {
 
   expect(resultFraction).toEqual(expectedFraction);
 });
-
-test('calculate GCD for 5/15', () => {
-  const fraction = new Fraction(5, 15);
-
-  expect(fraction.gcd(5, 15)).toEqual(5);
-});
