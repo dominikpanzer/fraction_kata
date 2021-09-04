@@ -3,6 +3,6 @@ export class Fraction {
   constructor(readonly numerator: number) {}
 
   public add(that: Fraction): Fraction {
-    return new Fraction(0);
+    return new Fraction(this.numerator + that.numerator);
   }
 }
