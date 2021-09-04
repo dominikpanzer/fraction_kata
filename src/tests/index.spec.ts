@@ -30,10 +30,10 @@ test('add negative integers', () => {
   expect(resultFraction).toEqual(expectedFraction);
 });
 
-test('add fractions with same denominator without simplifying', () => {
+test('add fractions with same denominator wit simplifying', () => {
   const firstFraction = new Fraction(1, 5);
   const secondFraction = new Fraction(2, 5);
-  const expectedFraction = new Fraction(15, 25);
+  const expectedFraction = new Fraction(3, 5);
 
   const resultFraction = firstFraction.add(secondFraction);
 
@@ -58,4 +58,10 @@ test('add fractions with zero', () => {
   const resultFraction = firstFraction.add(secondFraction);
 
   expect(resultFraction).toEqual(expectedFraction);
+});
+
+test('calculate GCD for 5/15', () => {
+  const fraction = new Fraction(5, 15);
+
+  expect(fraction.gcd(5, 15)).toEqual(5);
 });
